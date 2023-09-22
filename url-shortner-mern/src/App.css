@@ -1,0 +1,206 @@
+*{
+  margin: 0px;
+  
+}
+.App{
+  width: 100%;
+}
+
+.hide{
+  display: none;
+}
+.text-center{
+  text-align: center;
+}
+.border{
+  border: 1px solid red
+}
+.error{
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+.success{
+  background-color: rgb(19, 241, 82);
+  color: rgb(240, 244, 241);
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+.pad{
+  padding: 10px;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.flex-center{
+  justify-content: center;
+  align-items: center;
+}
+.flex-row{
+  flex-direction: row;
+}
+.linkInput{
+  width: 50vw;
+  height: 36px;
+  border-radius: 10px;
+  padding: 0px 10px ;
+}
+
+.formContainer{
+  border-radius: 10px;
+  background-color: #A0E7E5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px ;
+  min-height: 70vh;
+  min-width: 80vh;
+}
+.registerForm{
+  background-color: #FCB5AC;
+}
+.formContainer>form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;  
+}
+.link{
+  text-decoration: none;
+  color:black
+}
+div>label{
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 6px 0;
+  
+}
+div>input{
+  height: 25px;
+  padding: 10px;
+}
+
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 10px 5px;
+  position: relative;
+  bottom: -10px;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between  ;
+  align-items: center;
+  border: 2px solid black;
+}
+.navLink{
+  text-transform: capitalize;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.Container{
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  align-items: center;
+}
+.urlDiv{
+  width: 100%;
+  height: 100%;
+}
+
+/* table th and td tr */
+
+.tableContainer{  
+  width: 100%;
+  overflow-x: auto;
+}
+
+table{
+  table-layout: fixed;
+  width: 100%;
+}
+table,th,td{
+  line-height: 1.6;
+  border: 1px solid black;
+  word-wrap: break-word;
+}
+td:not(td:nth-child(2)){
+  text-align: center;
+}
+col:first-child{
+  width: 4%;  
+}
+col:nth-child(2){  
+  width: 56%;
+} 
+col:nth-child(3){  
+  width: 20%;
+} 
+col:last-child{
+  width: 10%;
+}
+
+/* Buttons */
+
+.btn{
+  padding: 8px 16px;
+  font-size: 1vw/2vw;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  
+}
+.generate-btn{
+  text-transform: uppercase;
+  background: #5dbea3 ;
+
+}
+.nav-btn{
+  background: #B23B3B;
+  color: white ;
+}
+.nav-btn-login{
+  background: #2196F3;
+
+}
+.login-btn {
+  background: #2196F3;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  width: 30%;
+  aspect-ratio: 20/6;
+}
+.register-btn{
+  background: #B4F8C8;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 20px;
+  width: 30%;
+  aspect-ratio: 20/6;
+}
+
+
+
