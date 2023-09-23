@@ -46,8 +46,4 @@ This URL Shortener Web Application is designed to simplify the process of conver
 
 While this project is primarily a demonstration, you are welcome to fork the repository and use it as a foundation for your own URL shortener project or experiment with additional features and enhancements.
 
-## License
 
-This project is released under the MIT License, granting you the freedom to use, modify, and distribute the code as needed.
-
-This comprehensive README provides a detailed overview of your URL shortener web application, its technologies, features, and information on how others can contribute to it.
